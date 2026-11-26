@@ -1,29 +1,41 @@
-# DevDojo - Formação Java
+# DevDojo — Formação Java
 
-Objetivo: Formação Java Backend.
+Repositório de acompanhamento da formação Java Backend, seguindo a ordem da playlist Maratona Java Virado no Jiraya, do DevDojo.
 
-## Histórico recuperado
-- Lógica de programação
-- Ambiente Java
-- Tipos e variáveis
-- Entrada de dados e Strings
-- Condicionais
-- Estruturas de repetição
-- Introdução a POO
-- Arrays e exercícios
+## Organização
 
-## Último exercício registrado
-CalculoProduto.java
-Produto: iPhone
-Preço: R$ 3.800
-Quantidade: 5
-Total: R$ 19.000
+- `01-Fundamentos/` — aulas de fundamentos.
+- `02-Controle-de-Fluxo/` — estruturas condicionais e de repetição.
+- `03-Arrays/` — arrays e matrizes.
+- `06-Exercicios/` — exercícios práticos complementares.
+- `scripts/` — scripts de validação e apoio.
 
-## Próximo exercício registrado
-CalculoDesconto.java
+## Etapas de estudo
 
-## Regras de estudo
-- Resolver exercícios sem copiar soluções.
-- Entender os erros antes de corrigir.
-- Registrar cada aula concluída.
-- Fazer commit no Git ao finalizar etapas.
+### Aulas 10–38
+Reconstrução prática dos conteúdos da playlist.
+
+### Exercícios de Fundamentos
+Cinco exercícios complementares praticam entrada de dados, variáveis, operações matemáticas, condicionais e validações.
+
+### A partir da Aula 39 — POO
+O estudante começará a escrever manualmente os códigos e exercícios, desenvolvendo autonomia na programação.
+
+## Exercícios anteriores
+
+- `06-Exercicios/CalculoProduto.java`
+- `06-Exercicios/CalculoDesconto.java`
+
+## Validação
+
+Validar as aulas 10–38:
+
+`bash scripts/validar-todas-aulas.sh`
+
+Validar as aulas e os exercícios:
+
+`bash scripts/validar-projeto.sh`
+
+## Git
+
+As etapas devem ser revisadas, validadas e documentadas antes de cada commit.
