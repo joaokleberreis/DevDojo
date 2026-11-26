@@ -24,6 +24,16 @@ Oito exercícios complementares praticam condicionais, operadores, estruturas de
 ### Exercícios de Arrays e Matrizes
 Oito exercícios complementares praticam vetores, matrizes, soma, média, pesquisa e inversão. A pasta contém documentação e testes automatizados.
 
+### Projetos práticos
+
+Três projetos de terminal consolidam os fundamentos de Java antes do início de POO:
+
+- `06-Exercicios/Projetos/Calculadora/` — operações matemáticas, menu, validações e tratamento de divisão por zero.
+- `06-Exercicios/Projetos/MenuInterativo/` — média de notas, conversão de temperatura e verificação de par ou ímpar.
+- `06-Exercicios/Projetos/ControleDeNotas/` — cadastro e listagem de notas, cálculo de média e classificação de situação.
+
+Cada projeto possui README próprio, código Java e script de testes automatizados.
+
 ### A partir da Aula 39 — POO
 O estudante começará a escrever manualmente os códigos e exercícios, desenvolvendo autonomia na programação.
 
