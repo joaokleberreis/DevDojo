@@ -1,6 +1,6 @@
 # Exercícios de Fundamentos
 
-Cinco exercícios complementares para praticar os conceitos iniciais de Java.
+Sete exercícios complementares para praticar os conceitos iniciais de Java.
 
 ## Exercícios
 
@@ -11,6 +11,8 @@ Cinco exercícios complementares para praticar os conceitos iniciais de Java.
 | Exercicio03MediaNotas.java | Cálculo de média e validação |
 | Exercicio04Retangulo.java | Área e perímetro |
 | Exercicio05Calculadora.java | Operações e condicionais |
+| Exercicio06CalculoProduto.java | Cálculo de preço total de produtos |
+| Exercicio07CalculoDesconto.java | Cálculo de desconto percentual |
 
 ## Compilação
 

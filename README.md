@@ -16,7 +16,7 @@ Repositório de acompanhamento da formação Java Backend, seguindo a ordem da p
 Reconstrução prática dos conteúdos da playlist.
 
 ### Exercícios de Fundamentos
-Cinco exercícios complementares praticam entrada de dados, variáveis, operações matemáticas, condicionais e validações.
+Sete exercícios complementares praticam entrada de dados, variáveis, operações matemáticas, condicionais e validações.
 
 ### Exercícios de Lógica
 Oito exercícios complementares praticam condicionais, operadores, estruturas de repetição, cálculos e validação de entrada. A pasta contém documentação e testes automatizados.
@@ -37,10 +37,7 @@ Cada projeto possui README próprio, código Java e script de testes automatizad
 ### A partir da Aula 39 — POO
 O estudante começará a escrever manualmente os códigos e exercícios, desenvolvendo autonomia na programação.
 
-## Exercícios anteriores
-
-- `06-Exercicios/CalculoProduto.java`
-- `06-Exercicios/CalculoDesconto.java`
+Os exercícios complementares de Fundamentos estão organizados e numerados em `06-Exercicios/Fundamentos/`.
 
 ## Validação
 

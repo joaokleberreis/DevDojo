@@ -1,4 +1,4 @@
-public class CalculoDesconto {
+public class Exercicio07CalculoDesconto {
     public static void main(String[] args) {
         // Próximo desafio do DevDojo:
         // Calcular o preço final de um produto

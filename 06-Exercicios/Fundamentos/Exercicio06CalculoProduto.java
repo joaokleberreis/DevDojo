@@ -1,4 +1,4 @@
-public class CalculoProduto {
+public class Exercicio06CalculoProduto {
     public static void main(String[] args) {
         String produto = "iPhone";
         double preco = 3800.00;

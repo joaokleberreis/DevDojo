@@ -18,7 +18,7 @@ mapfile -t LOGICA < <(find 06-Exercicios/Logica -maxdepth 1 -name '*.java' -type
 mapfile -t ARRAYS < <(find 06-Exercicios/Arrays -maxdepth 1 -name '*.java' -type f | sort)
 mapfile -t PROJETOS < <(find 06-Exercicios/Projetos -type f -name '*.java' | sort)
 
-[[ ${#FUNDAMENTOS[@]} -eq 5 ]] || { echo "ERRO: quantidade incorreta de Fundamentos."; exit 1; }
+[[ ${#FUNDAMENTOS[@]} -eq 7 ]] || { echo "ERRO: quantidade incorreta de Fundamentos."; exit 1; }
 [[ ${#LOGICA[@]} -eq 8 ]] || { echo "ERRO: quantidade incorreta de Lógica."; exit 1; }
 [[ ${#ARRAYS[@]} -eq 8 ]] || { echo "ERRO: quantidade incorreta de Arrays."; exit 1; }
 [[ ${#PROJETOS[@]} -eq 3 ]] || { echo "ERRO: quantidade incorreta de projetos."; exit 1; }
@@ -29,7 +29,7 @@ javac -encoding UTF-8 -d "$BUILD_DIR" \
   "${ARRAYS[@]}" \
   "${PROJETOS[@]}"
 
-echo "5 exercícios de Fundamentos compilados."
+echo "7 exercícios de Fundamentos compilados."
 echo "8 exercícios de Lógica compilados."
 echo "8 exercícios de Arrays compilados."
 echo "3 projetos práticos compilados."
