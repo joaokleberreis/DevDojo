@@ -4,34 +4,31 @@ set -Eeuo pipefail
 ROOT="$(cd "$(dirname "$0")/.." && pwd)"
 cd "$ROOT"
 
-echo "======================================"
-echo "VALIDAÇÃO GERAL — DEVDOJO"
-echo "======================================"
+echo "===== VALIDAÇÃO GERAL — DEVDOJO ====="
 
-echo
-echo "[1/2] Validando aulas 10–38..."
+echo "[1/3] Validando aulas 10–38..."
 bash scripts/validar-todas-aulas.sh
 
 echo
-echo "[2/2] Compilando exercícios de Fundamentos..."
+echo "[2/3] Compilando exercícios..."
 
 BUILD_DIR="$(mktemp -d)"
 trap 'rm -rf "$BUILD_DIR"' EXIT
 
-mapfile -t SOURCES < <(
-    find 06-Exercicios/Fundamentos -maxdepth 1 -name '*.java' -type f | sort
-)
+mapfile -t FUNDAMENTOS < <(find 06-Exercicios/Fundamentos -maxdepth 1 -name '*.java' -type f | sort)
+mapfile -t LOGICA < <(find 06-Exercicios/Logica -maxdepth 1 -name '*.java' -type f | sort)
 
-if [[ ${#SOURCES[@]} -ne 5 ]]; then
-    echo "Erro: esperados 5 exercícios; encontrados ${#SOURCES[@]}."
-    exit 1
-fi
+[[ ${#FUNDAMENTOS[@]} -eq 5 ]] || { echo "ERRO: quantidade incorreta de Fundamentos."; exit 1; }
+[[ ${#LOGICA[@]} -eq 8 ]] || { echo "ERRO: quantidade incorreta de Lógica."; exit 1; }
 
-javac -encoding UTF-8 -d "$BUILD_DIR" "${SOURCES[@]}"
+javac -encoding UTF-8 -d "$BUILD_DIR" "${FUNDAMENTOS[@]}" "${LOGICA[@]}"
 
-echo "Cinco exercícios compilados com sucesso."
+echo "5 exercícios de Fundamentos compilados."
+echo "8 exercícios de Lógica compilados."
 
 echo
-echo "======================================"
-echo "VALIDAÇÃO GERAL CONCLUÍDA"
-echo "======================================"
+echo "[3/3] Testes automatizados de Lógica..."
+bash scripts/testar-exercicios-logica.sh
+
+echo
+echo "===== VALIDAÇÃO GERAL CONCLUÍDA ====="

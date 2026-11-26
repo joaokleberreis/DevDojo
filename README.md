@@ -18,6 +18,9 @@ Reconstrução prática dos conteúdos da playlist.
 ### Exercícios de Fundamentos
 Cinco exercícios complementares praticam entrada de dados, variáveis, operações matemáticas, condicionais e validações.
 
+### Exercícios de Lógica
+Oito exercícios complementares praticam condicionais, operadores, estruturas de repetição, cálculos e validação de entrada. A pasta contém documentação e testes automatizados.
+
 ### A partir da Aula 39 — POO
 O estudante começará a escrever manualmente os códigos e exercícios, desenvolvendo autonomia na programação.
 
