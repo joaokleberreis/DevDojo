@@ -21,6 +21,9 @@ Cinco exercícios complementares praticam entrada de dados, variáveis, operaç�
 ### Exercícios de Lógica
 Oito exercícios complementares praticam condicionais, operadores, estruturas de repetição, cálculos e validação de entrada. A pasta contém documentação e testes automatizados.
 
+### Exercícios de Arrays e Matrizes
+Oito exercícios complementares praticam vetores, matrizes, soma, média, pesquisa e inversão. A pasta contém documentação e testes automatizados.
+
 ### A partir da Aula 39 — POO
 O estudante começará a escrever manualmente os códigos e exercícios, desenvolvendo autonomia na programação.
 
