@@ -5,7 +5,7 @@ ROOT_DIR="$(cd "$(dirname "$0")/.." && pwd)"
 BUILD_DIR="$(mktemp -d)"
 trap 'rm -rf "$BUILD_DIR"' EXIT
 
-SOURCE="$ROOT_DIR/06-Exercicios/Projetos/MenuInterativo/MenuInterativo.java"
+SOURCE="$ROOT_DIR/Projetos/MenuInterativo/MenuInterativo.java"
 
 javac -encoding UTF-8 -d "$BUILD_DIR" "$SOURCE"
 

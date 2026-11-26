@@ -16,7 +16,7 @@ trap 'rm -rf "$BUILD_DIR"' EXIT
 mapfile -t FUNDAMENTOS < <(find 06-Exercicios/Fundamentos -maxdepth 1 -name '*.java' -type f | sort)
 mapfile -t LOGICA < <(find 06-Exercicios/Logica -maxdepth 1 -name '*.java' -type f | sort)
 mapfile -t ARRAYS < <(find 06-Exercicios/Arrays -maxdepth 1 -name '*.java' -type f | sort)
-mapfile -t PROJETOS < <(find 06-Exercicios/Projetos -type f -name '*.java' | sort)
+mapfile -t PROJETOS < <(find Projetos -type f -name '*.java' | sort)
 
 [[ ${#FUNDAMENTOS[@]} -eq 7 ]] || { echo "ERRO: quantidade incorreta de Fundamentos."; exit 1; }
 [[ ${#LOGICA[@]} -eq 8 ]] || { echo "ERRO: quantidade incorreta de Lógica."; exit 1; }

@@ -17,7 +17,7 @@ Calculadora de terminal desenvolvida com fundamentos de Java.
 ## Compilação
 ```bash
 mkdir -p /tmp/devdojo-calculadora
-javac -encoding UTF-8 -d /tmp/devdojo-calculadora 06-Exercicios/Projetos/Calculadora/Calculadora.java
+javac -encoding UTF-8 -d /tmp/devdojo-calculadora Projetos/Calculadora/Calculadora.java
 ```
 
 ## Execução

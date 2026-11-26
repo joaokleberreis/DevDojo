@@ -24,7 +24,7 @@ Sistema de terminal para cadastrar notas, listar registros e calcular médias.
 ## Compilação
 ```bash
 mkdir -p /tmp/devdojo-notas
-javac -encoding UTF-8 -d /tmp/devdojo-notas 06-Exercicios/Projetos/ControleDeNotas/ControleDeNotas.java
+javac -encoding UTF-8 -d /tmp/devdojo-notas Projetos/ControleDeNotas/ControleDeNotas.java
 ```
 
 ## Execução

@@ -19,7 +19,7 @@ Programa de terminal com um menu de utilidades desenvolvido em Java.
 ## Compilação
 ```bash
 mkdir -p /tmp/devdojo-menu
-javac -encoding UTF-8 -d /tmp/devdojo-menu 06-Exercicios/Projetos/MenuInterativo/MenuInterativo.java
+javac -encoding UTF-8 -d /tmp/devdojo-menu Projetos/MenuInterativo/MenuInterativo.java
 ```
 
 ## Execução
