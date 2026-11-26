@@ -1,3 +1,5 @@
+package MenuInterativo;
+
 import java.util.Locale;
 import java.util.Scanner;
 
