@@ -8,5 +8,6 @@ public class CalculadoraTest01 {
 
         calculadora.somaDoisNumeros();
         calculadora.subtraiDoisNumeros();
+        calculadora.multiplicaDoisNumeros(10,2);
     }
 }
